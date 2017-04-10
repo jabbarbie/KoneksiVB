@@ -66,8 +66,4 @@ Public Class clskoneksi
         Cmd = Nothing
         CloseConn()
     End Sub
-    Public Sub Kode_Otomatis(ByVal Table As String, ByVal Nama As String, ByVal PKnya As String)
-        OpenConn()
-        sql = "SELECT " & PKnya & " FROM " & Table & " F"
-    End Sub
 End Class
